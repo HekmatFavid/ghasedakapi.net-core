@@ -28,6 +28,7 @@ namespace Ghasedak.Core.Models
         {
             public int Code { get; set; }
             public string Message { get; set; }
+            public int price { get; set; }            
         }
         public class ReceiveMessageResult
         {
